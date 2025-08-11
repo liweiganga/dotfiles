@@ -1,0 +1,32 @@
+import = [
+    "~/.config/alacritty/theme/dracula.toml",
+]
+shell = { program = '/usr/bin/zsh', args = [ '-l', '-c', 'tmux new-session', ] }
+live_config_reload = true
+
+[window]
+#position = { x = 1920, y = 0 }
+padding = { x = 1, y = 1 }
+dynamic_padding = false
+decorations = 'None'
+startup_mode = 'Maximized'
+opacity = 1.0
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = { family = 'JetBrainsMonoNL NF', style = 'Regular' }
+size = 16
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = 'Block', blinking = 'Always' }
+vi_mode_style = 'None'
+blink_interval = 750
+
+[mouse]
+hide_when_typing = true
