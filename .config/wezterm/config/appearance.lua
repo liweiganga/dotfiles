@@ -6,14 +6,15 @@ return {
     cursor_blink_rate = 500,
     force_reverse_video_cursor = true,
     -- color
-    color_scheme = 'Dracula (Official)',
+    -- color_scheme = 'GruvboxDark',
+    color_scheme = 'Dracula',
     -- background
     -- scrollbar
     enable_scroll_bar = true,
     -- tab_bar
     enable_tab_bar = true,
     hide_tab_bar_if_only_one_tab = true,
-    use_fancy_tab_bar = false,
+    use_fancy_tab_bar = true,
     tab_max_width = 25,
     tab_bar_at_bottom = true,
     show_tab_index_in_tab_bar = false,
@@ -29,11 +30,11 @@ return {
     window_decorations = 'NONE',
     -- opacity
     text_background_opacity = 0.9,
-    window_background_opacity = 0.95,
+    window_background_opacity = 1.0,
     -- status update time(ms)
     status_update_interval = 1000,
     -- scrollback
-    scrollback_lines = 10000,
+    scrollback_lines = 99999,
     -- close bar
     window_frame = {
         font_size = 13.0,
