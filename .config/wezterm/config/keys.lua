@@ -9,6 +9,9 @@ return {
         { key = '&', mods = 'LEADER|SHIFT', action = act.CloseCurrentTab { confirm = true } },
         { key = 'Tab', mods = 'CTRL', action = act.ActivateTabRelative(1) },
         { key = 'Tab', mods = 'CTRL|SHIFT', action = act.ActivateTabRelative(-1) },
+        { key = 'RightArrow', mods = 'LEADER', action = act.MoveTabRelative(1) },
+        { key = 'LeftArrow', mods = 'LEADER', action = act.MoveTabRelative(-1) },
+        { key = 's', mods = 'LEADER', action = act.ShowTabNavigator },
         { key = 'f', mods = 'LEADER', action = act.ToggleFullScreen },
         { key = ',', mods = 'LEADER', action = act.PromptInputLine {
             description = 'Enter new name for tab',
