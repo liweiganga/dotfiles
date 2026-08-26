@@ -12,6 +12,7 @@ return {
         { key = 'RightArrow', mods = 'LEADER', action = act.MoveTabRelative(1) },
         { key = 'LeftArrow', mods = 'LEADER', action = act.MoveTabRelative(-1) },
         { key = 's', mods = 'LEADER', action = act.ShowTabNavigator },
+        { key = 'p', mods = 'LEADER', action = act.ShowLauncher },
         { key = 'f', mods = 'LEADER', action = act.ToggleFullScreen },
         { key = ',', mods = 'LEADER', action = act.PromptInputLine {
             description = 'Enter new name for tab',

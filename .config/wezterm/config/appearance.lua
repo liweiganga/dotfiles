@@ -8,6 +8,10 @@ return {
     -- color
     -- color_scheme = 'GruvboxDark',
     color_scheme = 'Dracula',
+    -- 自定义配色方案（colors/ 目录），切换主题改这一行
+    color_schemes = {
+        ['Catppuccin Mocha'] = require('colors.catppuccin_mocha'),
+    },
     -- background
     -- scrollbar
     enable_scroll_bar = true,
@@ -29,7 +33,7 @@ return {
     -- window title
     window_decorations = 'NONE',
     -- opacity
-    text_background_opacity = 0.9,
+    text_background_opacity = 1.0,
     window_background_opacity = 1.0,
     -- status update time(ms)
     status_update_interval = 1000,

@@ -6,5 +6,5 @@ return {
     enable_wayland = true,
 
     -- default proc
-    default_prog = { '/bin/zsh', '-l'},
+    default_prog = { '/bin/zsh', '-i'},
 }
